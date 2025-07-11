@@ -8,3 +8,7 @@ jobs:
         run: echo "Hello world!!"
       - name: Print goodbye
         run: echo "Done - bye!!"
+      - name: Run together
+        run: |
+          echo "Hello my friend"
+          echo "How are you doing?"
